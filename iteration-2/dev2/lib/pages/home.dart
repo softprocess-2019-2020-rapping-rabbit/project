@@ -3,20 +3,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
-String strDrink = "Hello, on this page, you can receive a winning coctail";
-String strDrinkThumb =
-    "http://3.bp.blogspot.com/_6uF1NzP2nac/S9Q1jlrKABI/AAAAAAAAAFw/JbP3EWH32pA/s1600/cocktails.jpg";
-String strInstructions = "Press the shuffle button";
 String randomUrl = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 String cocktailUrl =
     "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
 
-String ingr = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=";
-
-List<String> strDrinkIngr = [""];
-List<String> strIngredient = [""];
-String urlIngredient = "";
-String strDrinkThumbIngr = "";
 
 fetch(String url) async {
   print("start");
