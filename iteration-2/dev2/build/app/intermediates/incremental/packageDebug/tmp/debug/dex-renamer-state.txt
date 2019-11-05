@@ -1,0 +1,4 @@
+#Tue Nov 05 21:00:05 EET 2019
+base.0=/Users/nikolaykuzichev/Desktop/Cocktails-master/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
