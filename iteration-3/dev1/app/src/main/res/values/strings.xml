@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Food Formula</string>
+    <string name="ingridient_search">Enter Ingridient</string>
+</resources>
